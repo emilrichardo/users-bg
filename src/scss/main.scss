@@ -1,0 +1,169 @@
+@import "./bootstrap/bootstrap";
+@import "./usersbg";
+
+
+// header
+.top-alert {
+    
+}
+.top-nav{
+
+}
+
+nav.navbar{
+    input{
+        -webkit-border-radius: 5px 0 0 5px;
+        border-radius: 5px 0 0 5px;
+        margin-right:0px!important;
+        padding-right:35px;
+    }
+    .navbar-nav{
+        li{
+            
+            a.btn{
+                background-color: rgba($dark, .5)!important;
+                padding-left:20px;
+                padding-right:20px;
+                color:$light;
+
+                &:hover{
+                   background-color: rgba($dark, .7)!important; 
+                }
+            }
+        }
+
+    }
+    
+}
+
+// section users
+.users-bgpro {    
+    nav{ 
+        
+        padding: 10px 24px;
+        h3{
+            margin: 0;
+        }
+    }
+    header{        
+        padding: 15px 30px;
+        h4,h5,h6 {margin: 0;}
+        h4 {font-size: 18px;}
+        h5 {font-size: 16px;}
+        h6 {font-size: 14px; font-weight: normal; }
+        .img-profile{margin-right: 15px;}
+        .valoraciones{
+            &> div{
+            margin:0 25px;
+            display: flex;
+            }
+            .ico{
+                float: left;
+                margin-right: 15px;
+                width: 45px;
+                height: 45px;
+                border: solid 3px;
+                -webkit-border-radius: 100px;
+                border-radius: 100px;
+                display: flex;
+                align-items:center;
+                align-content:center;
+                text-align: center;
+                i{
+                   font-size: 24px;
+                    margin-left: 8px; 
+                }
+            }
+
+        }
+    }
+    .content-users{
+        padding-top:24px;
+        padding-right:24px;
+        padding-bottom:20px;
+    }
+
+    // accordion side bar
+
+     #nav-accordion {  
+    }
+}
+
+
+ 
+#nav-accordion{
+    height:100%;
+}
+   
+
+    #nav-accordion > ul{
+        display: block;
+        
+    }
+
+     #nav-accordion ul{
+        padding: 0;
+     }
+
+     #nav-accordion > ul > li h5.item-h{
+        border-bottom: solid 1px $primary;
+        border-left: solid 3px $success;
+        padding:20px 24px;
+        margin:0; 
+         
+             
+
+
+     }
+
+    #nav-accordion li{
+        display:block;
+        
+
+    }
+
+    #nav-accordion li i{
+        margin-right: 10px;
+    }
+
+    #nav-accordion > ul > li ul{       
+        
+    }
+
+    #nav-accordion > ul > li ul li{
+        padding:10px 24px;
+        border-bottom:1px solid;
+        border-left:3px solid;
+    }
+
+    #nav-accordion li:hover{
+        cursor: pointer;
+    }
+
+    #nav-accordion a{
+        
+    }
+
+
+
+
+
+    //navs
+
+    .nav-tabs{
+    padding:15px 10px 0px 10px;
+    .nav-link{
+        padding:15px 25px;
+        margin:0 5px;
+        background-color:#EAEAEA;
+        color:$dark;
+        font-weight:bold;
+        &.active{
+            color:$primary;
+            
+        }
+    }
+}
+
+
+

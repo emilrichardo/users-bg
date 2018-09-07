@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Init Template</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="bg-light">
+    <div class="top-alert  text-center text-dark">
+      Añadir un Gift Card al saldo de tu cuenta
+    </div>
+    <div class="top-nav">
+      <ul>
+        <li><a href="#">¡Gana dinero real con nosotros!</a></li>
+        <li><a href="#">Start selling now!</a></li>
+        <li><a href="#">Integration API</a></li>
+        <li><a href="#">LATAM</a></li>
+        <li><a href="#">USD</a></li>
+      </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img src="https://dev-bitsyte.s3-us-west-2.amazonaws.com/users-bgp/assets/images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class=" my-2 my-lg-0">
+            <div class="btn-group">
+              <input class="form-control mr-sm-2" type="search" placeholder="Busca en el Marketplace..." aria-label="Search">
+              <button class="btn btn-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+          </form>
+          
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link btn" href="#">Wallets</span> <i class="fas fa-wallet"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn ml-lg-3 mt-2 mt-lg-0" href="#">Mi cuenta</span></a>
+            </li>
+            
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="users-bgpro py-5">
+      <div class="container">
+        <div class="wrapper-user bg-white">
+          <nav class="mb-0"><h3>Mi cuenta</h3></nav>
+          <header class="d-flex  justify-content-between align-items-center">
+            <div class="user d-flex">
+              <div class="img-profile"><img src="images/profile.png" alt=""></div>
+              <div class="text-user">
+                <h5>Your User Name</h5>
+                <h6>Seller level: BASIC</h6>
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <h6>Joined 17-07-2018</h6>
+              </div>
+            </div>
+            <div class="valoraciones d-flex">
+              <div class="total">
+                <div class="text-val">
+                  <h6>Todas las valoraciones</h6>
+                  <h4>01614 (25%)</h4>
+                </div>
+              </div>
+              <div class="positivos">
+                <div class="ico"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+                <div class="text-val">
+                  <h6>Positivo</h6>
+                  <h4>01614</h4>
+                </div>
+              </div>
+              <div class="neutrales">
+                <div class="ico"><i class="fa mb-3 fa-window-minimize" aria-hidden="true"></i></div>
+                <div class="text-val">
+                  <h6>Neutral</h6>
+                  <h4>614</h4>
+                </div>
+              </div>
+              <div class="negativos">
+                <div class="ico"><i class="fa fa-thumbs-down" aria-hidden="true"></i></div>
+                <div class="text-val">
+                  <h6>Negativo</h6>
+                  <h4>215</h4>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="row">
+            <div class="col-lg-3">
+              <div id="nav-accordion">
+                <ul>
+                  <li  data-toggle="collapse" data-target="#item1" aria-expanded="true" aria-controls="collapseOne">
+                    <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Mis compras </h5>                  
+                    <ul id="item1" class="collapse show" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                  <li data-toggle="collapse" data-target="#item2" aria-expanded="true" aria-controls="collapseOne">
+                    <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Vender </h5>                  
+                    <ul id="item2" class="collapse" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                  <li data-toggle="collapse" data-target="#item3" aria-expanded="true" aria-controls="collapseOne">
+                      <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Datos personales </h5>                   
+                    <ul id="item3" class="collapse" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                  <li data-toggle="collapse" data-target="#item4" aria-expanded="true" aria-controls="collapseOne">
+                      <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Notificaciones </h5>                   
+                    <ul id="item4" class="collapse" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                  <li data-toggle="collapse" data-target="#item5" aria-expanded="true" aria-controls="collapseOne">
+                      <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Mis tickets</h5>
+                    <ul id="item5" class="collapse" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                  <li data-toggle="collapse" data-target="#item6" aria-expanded="true" aria-controls="collapseOne">
+                      <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Servicio de ayuda</h5>                    
+                    <ul id="item6" class="collapse" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                  <li data-toggle="collapse" data-target="#item7" aria-expanded="true" aria-controls="collapseOne">
+                      <h5 class="item-h"><i class="fa fa-shopping-cart"></i>Valoraciones</h5>                    
+                    <ul id="item7" class="collapse" aria-labelledby="headingOne" data-parent="#nav-accordion">
+                      <li><a href="#">Subitem</a></li>
+                      <li><a href="#">Subitem</a></li>
+                    </ul>
+                  </li>
+                </ul>    
+              </div>
+            </div><!-- col sidebar -->
+            <div class="col-lg-9">
+              <!-- contenido de section -->
+              <div class="content-users">
+                <h3>Datos personales</h3>
+                <p>Complete yout profile an let us to meet you better</p>
+                <div class="card">
+                  <div class="card-body">
+                    <form action="">
+                      <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username"  placeholder="">
+                        <small class="form-text text-muted">Your unique name visible por other min. 6 chars, max. 26 chars</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" class="form-control" id="name"  placeholder="">
+                        <small class="form-text text-muted">Your nme won’t be visible to other users</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="pais">País</label>
+                      <select class="form-control" id="pais">
+                        <option>Seleccionar país</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn btn-success">Guardar</a>
+
+                    <div class="bg-light py-1 px-4 rounded my-3">
+                      <a href="#" class="text-danger">Borrar cuenta</a>
+                    </div>
+                    </form>
+                  </div>
+                </div>
+
+                <section class="vender-ahora">
+                  <h3 class="mt-4 mb-4">Vender Ahora (2) <a href="#" class="btn btn-info float-right">Vender un nuevo artículo</a></h3>
+                  <div class="card">
+                    <div class="card-header">
+                      <form action="" class="form-inline">
+                        <label>1 pedido(s)</label>
+                        <input type="email" class="form-control ml-2"  placeholder="Buscar pedido">
+                        <button type="submit" class="btn btn-outline-light text-dark ml-1">Buscar</button>
+                        <div class="form-group ml-auto">
+                          <label for="exampleFormControlSelect1">Ordenar por</label>
+                          <select class="form-control ml-1" id="exampleFormControlSelect1">
+                            <option>Más reciente primero</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </form>                      
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h6>Marketplace profit</h6>
+                        <h5 class="h2">
+                          <span class="badge badge-success">
+                            U$ 8.515
+                          </span>
+                        </h5>
+                      </div>
+                      <div class="btn-group  btn-group-md btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-light text-dark active">
+                          <input type="radio" name="options" id="option1" autocomplete="off" checked> Hoy
+                        </label>
+                        <label class="btn btn-outline-light text-dark">
+                          <input type="radio" name="options" id="option2" autocomplete="off"> Última semana
+                        </label>
+                        <label class="btn btn-outline-light text-dark">
+                          <input type="radio" name="options" id="option3" autocomplete="off"> Mes pasado
+                        </label>
+                        <label class="btn btn-outline-light text-dark">
+                          <input type="radio" name="options" id="option3" autocomplete="off"> Total
+                        </label>
+                      </div>
+
+                      <div class="prod-list">
+                        <div class="item-prod row py-3 border-top border-light mt-2">
+                          <div class="col-lg-6">
+                            <h6>Orden 845698456554</h6>
+                            <p><strong class="text-primary">1 artículo comprado</strong></p>
+                            <p class="d-flex justify-content-between">
+                              <small>Data: 17-17-2018</small>
+                              <small><strong>Precio Total: U$84.20</strong></small>
+                            </p>
+                          </div>
+                          <div class="col-lg-6 text-right">
+                            <p>
+                              <small>Estado: <strong class="text-primary">Nuevo</strong></small>
+                            </p>
+                            <p><small><a class="  text-secondary" href="#">Crear ticket</a> <span class="d-inline-block mx-2">|</span><a class="  text-secondary" href="#">Imprimir pedido</a></small></p>                        
+                          </div>
+                        </div>
+                        <div class="item-prod row py-3 border-top border-light mt-2">
+                          <div class="col-lg-6">
+                            <h6>Orden 845698456554</h6>
+                            <p><strong class="text-primary">1 artículo comprado</strong></p>
+                            <p class="d-flex justify-content-between">
+                              <small>Data: 17-17-2018</small>
+                              <small><strong>Precio Total: U$84.20</strong></small>
+                            </p>
+                          </div>
+                          <div class="col-lg-6 text-right">
+                            <p>
+                              <small>Estado: <strong class="text-primary">Nuevo</strong></small>
+                            </p>
+                            <p><small><a class="  text-secondary" href="#">Crear ticket</a> <span class="d-inline-block mx-2">|</span><a class="  text-secondary" href="#">Imprimir pedido</a></small></p>                        
+                          </div>
+                        </div>
+                        <div class="item-prod row py-3 border-top border-light mt-2">
+                          <div class="col-lg-6">
+                            <h6>Orden 845698456554</h6>
+                            <p><strong class="text-primary">1 artículo comprado</strong></p>
+                            <p class="d-flex justify-content-between">
+                              <small>Data: 17-17-2018</small>
+                              <small><strong>Precio Total: U$84.20</strong></small>
+                            </p>
+                          </div>
+                          <div class="col-lg-6 text-right">
+                            <p>
+                              <small>Estado: <strong class="text-primary">Nuevo</strong></small>
+                            </p>
+                            <p><small><a class="  text-secondary" href="#">Crear ticket</a> <span class="d-inline-block mx-2">|</span><a class="  text-secondary" href="#">Imprimir pedido</a></small></p>                        
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <span>1 pedido</span>
+                      <div class="form-group d-flex mb-0">
+                        <label for="exampleFormControlSelect1">Mostrar</label>
+                        <select class="form-control form-control-sm mx-2" id="exampleFormControlSelect1" style="width: 70px;">
+                          <option>10</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <span>por página</span>
+                    </div>
+                    </div>
+                  </div>
+                  
+                </section>
+
+                <section class="vender-pro">
+                  <h3 class="my-3">Vender un producto</h3>
+                  <p>Antes de rellenar el formulario puedes leer nuestros consejos para maximizar tu beneficio.</p>
+                  <div class="tab-content">
+                    <ul class="nav nav-tabs " id="myTab" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>
+                </section>
+
+                <section class="productos-comprados">
+                  <h3 class="mt-4">Productos comprados</h3>
+                  <div class="card">
+                    <div class="card-header">
+                      <form action="" class="form-inline">
+                        <label>1 pedido(s)</label>
+                        <input type="email" class="form-control ml-2"  placeholder="Buscar pedido">
+                        <button type="submit" class="btn btn-outline-light text-dark ml-1">Buscar</button>
+                        <div class="form-group ml-auto">
+                          <label for="exampleFormControlSelect1">Ordenar por</label>
+                          <select class="form-control ml-1" id="exampleFormControlSelect1">
+                            <option>Más reciente primero</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </form>                      
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h5>Orden 845698456554</h5>
+                          <p><strong class="text-primary">1 artículo comprado</strong></p>
+                          <p class="d-flex justify-content-between">
+                            <small>Data: 17-17-2018</small>
+                            <small><strong>Precio Total: U$84.20</strong></small>
+                          </p>
+                        </div>
+                        <div class="col-lg-6 text-right">
+                          <p>
+                            <small>Estado: <strong class="text-primary">Nuevo</strong></small>
+                          </p>
+                          <p><small><a class="  text-secondary" href="#">Crear ticket</a> <span class="d-inline-block mx-2">|</span><a class="  text-secondary" href="#">Imprimir pedido</a></small></p>
+
+                          <a href="#" class="btn btn-success">Ver pedido</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                      <span>1 pedido</span>
+                      <div class="form-group d-flex mb-0">
+                        <label for="exampleFormControlSelect1">Mostrar</label>
+                        <select class="form-control form-control-sm mx-2" id="exampleFormControlSelect1" style="width: 70px;">
+                          <option>10</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <span>por página</span>
+                    </div>
+                    </div>
+                  </div>
+                  
+                </section>
+
+
+                <section class="notify mt-5">
+                  <h3>Centro de notificaciones</h3>
+                  <div class="card">
+                    <div class="card-bo">
+                      <table class="table  table-striped">
+                        <thead class="thead-light">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col" colspan="2">Correo electrónico</th>
+                            <th scope="col">Sitio web</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><h3 class="text-primary mb-0">Marketplace</h3>
+                            </td>
+                            <td>
+                              <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Daily</label>
+                                </div>
+                              </td>
+                            <td>
+                              <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Every 1h</label>
+                                </div>
+                            </td>
+                            <td>
+                              <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Auto</label>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </section>
+              </div><!-- content-users -->
+
+            </div><!-- col-content -->
+          </div>
+        </div><!-- wrapper-user -->
+      </div><!-- container -->
+    </section>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  </body>
+</html>
